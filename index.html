@@ -18,11 +18,12 @@
         }
         .container {
             max-width: 600px;
+            padding: 20px;
         }
         h1 {
             font-size: 3rem;
             color: #ffffff;
-            border-bottom: 3px solid #2d8c5b; /* A green that matches your LinkedIn */
+            border-bottom: 3px solid #2d8c5b;
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
@@ -33,7 +34,16 @@
         .footer {
             margin-top: 40px;
             font-size: 0.9rem;
+            line-height: 1.5;
             color: #888;
+        }
+        .footer a {
+            color: #a0a0a0; /* Lighter grey for the link */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -41,6 +51,11 @@
     <div class="container">
         <h1>VIRELIX</h1>
         <p>The Future of Systems Biology.</p>
-        <p class="footer">Follow us on X and Instagram @virelixbio. &copy; VIRELIX. All rights reserved. Operating in stealth mode.</p>    </div>
+        <p class="footer">
+            Follow us on <a href="https://x.com/virelixbio" target="_blank" rel="noopener noreferrer">X</a> and <a href="https://instagram.com/virelixbio" target="_blank" rel="noopener noreferrer">Instagram</a>.
+            <br>
+            Operating in stealth mode. &copy; VIRELIX. All rights reserved.
+        </p>    
+    </div>
 </body>
 </html>
